@@ -910,6 +910,10 @@ app.get('/manoj', (req, res)=>{
   res.send("hello manoj sir kese ho")
 })
   
+app.get("/", (req, res) => {
+  res.send("✅ Railway deployment working!");
+});
+
 const PORT = process.env.PORT || 5000;
 
 
